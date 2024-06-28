@@ -61,3 +61,18 @@ function filterOddNumbers(numArr) {
 const oddNumbersCheck = [3, 7, 2, 9, 5, 8];
 const result5 = filterOddNumbers(numbers);
 console.log(result5);
+
+// Question - 6
+function sumArray(arrSum) {
+    let sum = 0;
+
+    for (let i = 0; i < arrSum.length; i++) {
+        sum += arrSum[i];
+    }
+
+    return sum;
+}
+
+const sumNumbers = [3, 7, 2, 9, 5];
+const result6 = sumArray(sumNumbers);
+console.log(result6); 
