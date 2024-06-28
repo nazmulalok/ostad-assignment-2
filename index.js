@@ -29,3 +29,19 @@ function findMax(arr) {
 const numbers = [3, 7, 2, 9, 5];
 const result3 = findMax(numbers);
 console.log(result3);
+
+// Question - 4
+function reverseString(str) {
+    let reversed = '';
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversed += str[i];
+    }
+
+    return reversed;
+}
+
+
+const inputString = "hello string";
+const result4 = reverseString(inputString);
+console.log(result4);
