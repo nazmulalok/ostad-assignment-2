@@ -45,3 +45,19 @@ function reverseString(str) {
 const inputString = "hello string";
 const result4 = reverseString(inputString);
 console.log(result4);
+
+// Question - 5
+function filterOddNumbers(numArr) {
+    let finalOdd = [];
+
+    for (let i = 0; i < numArr.length; i++) {
+        if (numArr[i] % 2 !== 0) {
+            finalOdd.push(numArr[i]);
+        }
+    }
+    return finalOdd;
+}
+
+const oddNumbersCheck = [3, 7, 2, 9, 5, 8];
+const result5 = filterOddNumbers(numbers);
+console.log(result5);
