@@ -75,4 +75,19 @@ function sumArray(arrSum) {
 
 const sumNumbers = [3, 7, 2, 9, 5];
 const result6 = sumArray(sumNumbers);
-console.log(result6); 
+console.log(result6);
+
+// Question - 7
+function sortArray(sortArr) {
+    let sortedArray = sortArr.slice();
+
+    sortedArray.sort(function (a, b) {
+        return a - b;
+    });
+
+    return sortedArray;
+}
+
+const sortNumbers = [3, 7, 2, 9, 5];
+const result7 = sortArray(sortNumbers);
+console.log(result7);
