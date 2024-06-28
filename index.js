@@ -91,3 +91,17 @@ function sortArray(sortArr) {
 const sortNumbers = [3, 7, 2, 9, 5];
 const result7 = sortArray(sortNumbers);
 console.log(result7);
+
+// Question - 8
+function capitalizeFirstLetter(capitalStr) {
+    if (capitalStr.length === 0) {
+        return capitalStr;
+    }
+
+    return capitalStr[0].toUpperCase() + capitalStr.slice(1);
+}
+
+const capitalString = "hello";
+const result8 = capitalizeFirstLetter(capitalString);
+console.log(result8);
+
